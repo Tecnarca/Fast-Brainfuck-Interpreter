@@ -1,7 +1,7 @@
 # Fast-Brainfuck-Interpreter
 An interpreter for the brainfuck language written to be as fast as possible.
 The program is written in C and it uses the `time.h` library to measure how many seconds the interpreter function takes to finish.
-This program was originally written to implement a genetic algorithm that writes program in brainfuck (it's the only programming language that uses single char instructions and it's turing complete).
+This program was originally written to implement a simple genetic algorithm that writes programs in brainfuck (it's a programming language that uses single char instructions and it's turing complete).
 
 ## Compiling and usage
 To compile and execute, use the commands:
