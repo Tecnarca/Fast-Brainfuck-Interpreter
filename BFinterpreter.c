@@ -89,7 +89,7 @@ int main(int argc, char **argv){
 
     int c = interpreter(prog);
 
-    if(c != 0) printf("\nExecuted in %f seconds.\n\n", ((float) clock() - startTime ) / (float)CLOCKS_PER_SEC);
+    if(!c) printf("\nExecuted in %f seconds.\n\n", ((float) clock() - startTime ) / (float)CLOCKS_PER_SEC);
 	else printf("Program execution failed, returned %d code", c);
 
 	return 0;
