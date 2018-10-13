@@ -48,7 +48,7 @@ int interpreter(char* prog){
 					JMP[cr_jmp]=ist;
 					cr_jmp++;
 				} else {
-					cont = 1;
+					count = 1;
 					for(ist++;count&&*ist;ist++){
 						if(*ist == '[') count++;
 						if(*ist == ']') count--;
